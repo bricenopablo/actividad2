@@ -32,10 +32,14 @@ body{
 
 .nav ul li a{
     text-decoration: none;
-    color: #fff;  
+    color: rgba(255, 255, 255, 0.596);  
     text-transform: uppercase;
     font-weight: 600;
 }
+
+.nav ul li a:hover {
+    color: rgba(255, 255, 255, 1);
+} 
 
 .main{
     min-height: 100%;
